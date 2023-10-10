@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define Service Name
-serviceName=cloud-run-template
+serviceName="cloud-run-template"
 
 # Deploy to Cloud Run
 gcloud run deploy $serviceName \
